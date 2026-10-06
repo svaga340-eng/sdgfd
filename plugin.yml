@@ -1,0 +1,14 @@
+name: MobEcome
+version: 1.0.0
+main: ru.mobecome.MobEcome
+api-version: '1.21'
+description: Превращение админов в мобов
+commands:
+  mobecome:
+    description: Меню превращения в моба / /mobecome back — вернуться
+    usage: /mobecome [back]
+    permission: mobecome.use
+permissions:
+  mobecome.use:
+    description: Доступ к превращению в мобов
+    default: op
